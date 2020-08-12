@@ -1,0 +1,59 @@
+.team {
+  width: 100vw;
+  height: 100vh;
+  background-color: #b9c8c3;
+}
+
+.team h1 {
+  font-size: 5rem;
+  text-align: center;
+  padding: 5vh 0;
+  color: #3b423c;
+}
+
+.team .card {
+  width: 80%;
+  margin: 0 10%;
+  display: grid;
+  grid-gap: 30px;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.team .card .box {
+  padding: 15px;
+  margin: 20px;
+  width: 30vw;
+  height: 30vh;
+  background-color: #738c86;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.team .card .box img {
+  width: 120px;
+  height: 100px;
+  display: block;
+  margin: auto;
+  border-radius: 50%;
+}
+
+.team .card .box h4 {
+  font-size: 2.5rem;
+  margin: 5px 0;
+  color: #c4d1cc;
+}
+
+.team .card .box h5 {
+  font-size: 2rem;
+  margin: 5px 0;
+  color: #3b423c;
+}
+
+.team .card .box p {
+  font-size: 1.5rem;
+  text-align: center;
+  margin: 5px 0;
+  color: #3b423c;
+}

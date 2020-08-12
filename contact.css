@@ -1,0 +1,106 @@
+.container {
+  width: 80%;
+  margin: 50px auto;
+}
+
+.container h1 {
+  font-size: 5rem;
+  text-align: center;
+  margin: 5rem 0;
+}
+
+.contact-box {
+  background: #fff;
+  display: flex;
+  height: 60vh;
+}
+
+.contact-left {
+  width: 60%;
+  background-color: brown;
+}
+
+.contact-left form {
+  display: flex;
+  margin: 0 15%;
+  width: 70%;
+  flex-direction: column;
+  justify-content: space-evenly;
+  background-color: cadetblue;
+  height: 90%;
+  align-items: center;
+}
+
+.contact-left form .input-row {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-right {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 40px;
+  align-items: center;
+  background: #ffc0cb;
+}
+
+.container p {
+  margin-bottom: 40px;
+}
+
+label {
+  margin: 0 5%;
+  font-size: 1.8rem;
+}
+
+input,
+textarea {
+  width: 90%;
+  margin: 0 5%;
+  background-color: transparent;
+  border: none;
+}
+
+input:hover,
+textarea:hover {
+  background-color: #303a52;
+  color: #ccc;
+}
+
+.form .eachInput input::placeholder {
+  color: #ccc;
+}
+
+.form .eachInput textarea::placeholder {
+  color: #ccc;
+}
+
+input:focus,
+textarea:focus {
+  background-color: #303a52;
+  outline: none;
+  color: #ccc;
+  font-size: 1rem;
+}
+
+button {
+  display: inline-block;
+  background: #ff69b4;
+  width: 100px;
+  border: none;
+  outline: none;
+  color: #fff;
+  height: 35px;
+  border-radius: 30px;
+  margin-top: 20px;
+}
+
+tr td:first-child {
+  padding-right: 20px;
+}
+
+tr td {
+  padding-top: 20px;
+}

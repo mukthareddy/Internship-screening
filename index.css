@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Fauna+One&family=Playfair+Display:wght@700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Playfair Display", serif;
+}
+
+p {
+  font-family: "Fauna One", serif;
+}
+
+header nav {
+  padding: 10px 10px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  width: 100vw;
+  justify-content: space-between;
+  color: #b9c8c3;
+  font-size: 2rem;
+  z-index: 1;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-evenly;
+  list-style: none;
+  width: 30%;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #3b423c;
+}
+
+.hero {
+  background: url("./assets/img/homeBg.jpg");
+  height: 100vh;
+  width: 100vw;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.hero .intro-text {
+  margin: 20px 5px;
+  height: 50%;
+  width: 60%;
+  background-color: #b9c8c3;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.hero h1 {
+  font-size: 6rem;
+  color: #3b423c;
+}
+
+.hero p {
+  font-size: 3rem;
+  color: #3b423c;
+}
+
+@media only screen and (max-width: 768px) {
+  .hero {
+    align-items: center;
+    background-color: red;
+  }
+  .hero .intro-text {
+    margin: 0;
+    width: 100;
+  }
+}
